@@ -1,0 +1,25 @@
+table {
+    overflow: hidden;
+  }
+  
+  tr:hover {
+    background: rgb(182, 182, 182);
+  }
+  
+  tr td:first-child {
+    position:relative;
+  }
+  
+  a:before {
+    content: '';
+    position:absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    width: 400px;
+  }
+
+  .row {
+    cursor: pointer;
+}
